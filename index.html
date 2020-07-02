@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SushiStras Homepage</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Shojumaru&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div id="navigation">
+      <nav class="navbar navbar-default">
+        <a class="sushistras shojumaru-stroke">Sushistras</a>
+        <div class="navbar navbar-right">
+          <a class="nav-link" href="#">Accueil</a>
+          <a class="nav-link" href="#">La carte</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </nav>
+    </div>
+
+<!-- Notice WIP-->
+<div class="container-fluid ">
+    <div class="row disclaimer">
+<div class="col-xs-12">
+    <p class=> Seule la page d'accueil de ce site a été développée actuellement</p>
+</div>
+</div>
+</div>
+<!-- Image Header-->
+    <div id="header" class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="intro text-center">
+            <div class="decoration">
+              <h1 class="shojumaru-stroke">Commander</h1>
+              <a href=""
+                ><button class="btn btn-danger cta1 shojumaru">
+                  Livraison
+                </button></a
+              >
+              <a href=""
+                ><button class="btn btn-danger cta1 shojumaru">
+                  à emporter
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Le Restaurant-->
+    <div id="restaurant" class="container">
+      <div class="row">
+        <h2 class="titres">Le restaurant</h2>
+        <div class="col-md-12">
+          <p class="text-justify">
+            SushiStras est un restaurant fictif proposant une grande variété de
+            spécialités japonaises en plein coeur de Strasbourg. Chaque plat
+            servi est préparé avec des produits frais venus directement du
+            Japon.
+          </p>
+
+          <p class="text-justify">
+            Notre restaurant propose les meilleurs repas japonais dans une
+            ambiance agréable et authentique. Nos préparations sont également
+            disponibles en livraison ou à emporter. Il suffit de passer sa
+            commande sur ce site.
+          </p>
+
+          <h3 class="text-center submenu">Nos spécialités</h3>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg">
+            <p>
+              <img
+                class="cercles center img-responsive"
+                src="/images/sushis.jfif"
+              />
+            </p>
+            <p class="text-center caption">Sushis & Makis</p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <img
+                class="cercles center img-responsive"
+                src="/images/curry.jpg"
+              />
+            </p>
+            <p class="text-center caption">Curry japonais</p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <img
+                class="cercles center img-responsive"
+                src="/images/burger.jpg"
+              />
+            </p>
+            <p class="text-center caption">Burgers de riz</p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <img
+                class="cercles center img-responsive"
+                src="/images/cocktails.jpg"
+              />
+            </p>
+            <p class="text-center caption">Cocktails</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button class="btn btn-danger btn-block boutoncarte shojumaru">
+            La Carte
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Où nous trouver-->
+    <div id="adresse" class="container">
+      <div class="row">
+        <h2 class="titres">Où nous trouver</h2>
+      </div>
+    </div>
+    <!--Google map-->
+    <div id="map" class="container">
+      <div class="row">
+        <!-- Cards-->
+        <div class="col-lg-3 col-sm-6 center">
+          <div class="card-body">
+            <h5 class="card-title card-header">Adresse</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-center">À pied</h6>
+            <p class="card-text">
+              3 rue des XYZ <br />
+              67000 Strasbourg
+            </p>
+
+            <h6 class="card-subtitle mb-2 text-muted">Accès</h6>
+            <p class="card-text">
+              Parking relais Rotonde <br />
+              Tram E arrêt ABC
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 center">
+          <div class="card-body">
+            <h5 class="card-title card-header">Horaires d'ouverture</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Lundi</h6>
+            <p class="card-text">Fermé</p>
+
+            <h6 class="card-subtitle mb-2 text-muted">Mardi à Vendredi</h6>
+            <p class="card-text">De 11h à 14h <br />et de 18h à 21h</p>
+
+            <h6 class="card-subtitle mb-2 text-muted">Samedi & dimanche</h6>
+            <p class="card-text">De 11h à 15h <br />et de 18h à 23h</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div
+            id="map-container-google-1"
+            class="z-depth-1-half map-container"
+            style="height: 500px;"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10557.842220483382!2d7.7510348!3d48.5818799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7152777f55e2738!2sCath%C3%A9drale%20Notre%20Dame%20de%20Strasbourg!5e0!3m2!1sen!2sfr!4v1593622700070!5m2!1sen!2sfr"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <!--Google Maps-->
+      </div>
+    </div>
+
+    <!-- L'Équipe-->
+    <div id="equipe" class="container">
+      <h2 class="titres">L'équipe</h2>
+      <div class="row d-flex flex-wrap align-items-center">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <img src="/images/couple.jpg" alt="" style="width: 100%;" />
+            <div class="caption text-center">
+              <p>
+                Masami & Kurihara Kichiro - <br />
+                Gérants et propriétaires, arrivés à Strasbourg en 2004
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="/images/chef.jpg" alt="" style="width: 100%;" />
+            <div class="caption text-center">
+              <p>
+                Tsuji Tomio - <br />
+                Itamae : "Maître Sushi"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="/images/serveuse1.jpg" alt="" style="width: 100%;" />
+            <div class="caption text-center">
+              <p>
+                Sakurai Miki -<br />
+                Responsable du service
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer-->
+    <div id="footer" class="container-fluid separator">
+        <div class="row">
+      <div class="col-4">
+        <p class="footertext text-center">SushiStras est une marque fictive</p>
+      </div>
+      <div class="col-4">
+        <p class="footertext text-center">©Maurice Kurth</p>
+      </div>
+      <div class="col-4">
+        <a><p class="footertext text-center">Contact</p></a>
+      </div>
+    </div>
+    <!-- Scripts JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
